@@ -23,7 +23,7 @@ For DeepStream 7.1, the source code is located at:
 ```
 For DeepStream 5.1 (reference in this repository):
 ```
-/opt/nvidia/deepstream/deepstream-5.1/sources/apps/src/
+/opt/nvidia/deepstream/deepstream-5.1/sources/apps/apps-common/src/
 ```
 
 ### 2. Modify `cb_rtspsrc_select_stream` Function
@@ -65,7 +65,7 @@ NV_DS_ENCODER_MJPEG
 
 ## Directory Structure
 ```
-/opt/nvidia/deepstream/deepstream-5.1/sources/apps
+/opt/nvidia/deepstream/deepstream-5.1/sources/apps/apps-common/
 ├── src
 │   ├── deepstream_source_bin.c
 │   └── deepstream_sink_bin.c
